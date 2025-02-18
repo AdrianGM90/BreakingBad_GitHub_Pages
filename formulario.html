@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/css_externo.css">
+    <title>Breaking Bad - Que comience el juego!</title>
+</head>
+<body class="background1">
+    <div class="titles">Breaking Bad - Que comience el juego!</div>
+    <div class="form_config">
+        <form action="mailto:raul.rodriguez@proeducaglobal.com" name="Datos Personales" method="post">
+            <div class="form_section">
+                <p>DATOS PERSONALES</p>
+                <br>Nombre: <input type="text" name="Nombre" required placeholder="Nombre">
+                <br>Apellidos: <input type="text" name="Apellidos" required  placeholder="Apellidos">
+                <br>DNI: <input type="text" name="DNI"  placeholder="12345678A">
+                <br>Correo Electrónico: <input type="email" placeholder="ejemplo@gmail.com">
+            </div>
+            <div class="form_section">
+                <p>DIRECCIÓN POSTAL</p>
+                    Calle: <input type="text" name="Calle" placeholder="Calle/Avenida/Paseo/...">
+                    <br>Número: <input type="number" name="Número" placeholder="Número">
+                    <br>Piso: <input type="text" name="Piso" placeholder="Piso">
+                    <br>Código Postal: <input type="number" name="Código Postal" placeholder="CP">
+                    <br>Ciudad: <input type="text" name="Ciudad" placeholder="Ciudad">
+            </div>
+            <div class="form_section">
+                <br>SEXO
+                <br><input type="radio" name="Sexo" value="Hombre">Hombre
+                <br><input type="radio" name="Sexo" value="Mujer">Mujer
+            </div>
+            <div class="form_section">
+                Fecha de nacimiento: <input type="date">
+            </div>
+            <div class="form_section">
+                <p>SELECCIÓN DE PERSONAJE</p>
+                <select name="Personaje">
+                    <option value="0">Seleccione una opción</option>
+                    <option value="2">Jessie Pinkman</option>
+                    <option value="3">Walter White</option>
+                    <option value="4">Saul Goodman</option>
+                    <option value="5">Gustavo Fring</option>
+                    <option value="6">Pollos Hermanos</option>
+                    <option value="7">Otros personajes</option>
+                </select>
+            </div>
+            <div class="form_section">
+                <p>COMENTARIOS</p>
+                <textarea name="Comentarios" placeholder="Escribe aquí tus comentarios"></textarea>
+            </div>
+            <div class="form_section">
+                <p><input type="file" name="Archivos"></p>
+                <br><input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

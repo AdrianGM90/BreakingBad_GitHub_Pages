@@ -1,0 +1,395 @@
+/* CSS GENERAL */
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS FONDOS */
+.background1{
+    background-image:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.background2{
+    background-color: #0c3e11;
+}
+
+/* CSS TEXTOS */
+@font-face {
+    font-family: 'BreakingBad';
+    src: url(../Breaking\ Bad.ttf);
+}
+
+.titles{
+    font-family: Helvetica;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.IndexText{
+    text-align: center;
+    font-family: 'BreakingBad';
+    font-size: 40px;
+    color: white;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.table_titles{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 2px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.table_texts{
+    font-family: Helvetica;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.form_section{
+    font-family: Helvetica;
+    font-size: 10px;
+    color: white;
+    margin: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+/* CSS INDEX */
+.BBLogo{
+    background-image: url(../img/logo.PNG);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.poster1 {
+    border: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+    height: 300px;
+    width: 700px;
+    margin: auto;
+}
+
+/* CSS FORMULARIO */
+
+.form_config{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* CSS TABLA */
+.CabeceraTabla{
+    background-image: url(../img/cabecera.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+}
+
+.table_config{
+    background-color: rgb(32, 33, 27);
+    border-spacing: 5px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.cell_config_empty{
+    empty-cells: hide;
+}
+
+.cell_config1{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(183, 219, 23);
+}
+
+.cell_config2{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(130, 142, 76);
+}
+
+.cell_config3{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(213, 232, 124);
+}
+
+.cell_config4{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(238, 245, 201);
+}
+
+.cell_config5{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(137, 163, 27);
+}
+
+.cell_config6{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(99, 113, 38);
+}
+
+.cell_config7{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(197, 226, 72);
+}
+
+.cell_config8{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(189, 198, 155);
+}
+
+.cell_config9{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(172, 142, 204);
+}
+
+.cell_config10{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    background-color: rgb(193, 196, 43);
+}
+
+
+.cell_config12{
+    height: 140px;
+    width: 70px;
+}
+
+#cell_W{
+    background-image: url(../img/walterwhite.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    margin: auto;
+}
+
+#cell_Sk{
+    background-image: url(../img/skylerwhite.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+#cell_Ha{
+    background-image: url(../img/hankschrader.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+#cell_Ma{
+    background-image: url(../img/marieschrader.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+}
+
+#cell_Sa{
+    background-image: url(../img/saulgoodman.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    margin: auto;
+}
+
+#cell_J{
+    background-image: url(../img/jessiepinkman.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+#cell_Bg{
+    background-image: url(../img/badger.png);
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+#cell_Hs{
+    background-image: url(../img/hectorsalamanca.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+#cell_Ts{
+    background-image: url(../img/tucosalamanca.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+
+}
+
+#cell_G{
+    background-image: url(../img/gustavofrink.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 80px;
+    margin: auto;
+}
+
+#cell_Ga{
+    background-image: url(../img/gale.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    margin: auto;
+}
+
+#cell_M{
+    background-image: url(../img/mike.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    margin: auto;
+}
+
+#cell_B{
+    background-image: url(../img/cristal.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 60px;
+    height: 70px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+#cell_RV{
+    background-image: url(../img/bus.png);
+    background-size: 100% 100%;
+    background-position: center;
+    width: 70px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#cell_Pi{
+    background-image: url(../img/pizza.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 50px;
+}
+
+#cell_Lz{
+    background-image: url(../img/pistola.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 50px;
+}
+
+#cell_Ti{
+    background-image: url(../img/calzoncillos.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 60px;
+}
+
+#cell_HCl{
+    background-image: url(../img/pocima.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+}
+
+#cell_R{
+    background-image: url(../img/mascara.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+#cell_FI{
+    background-image: url(../img/movil.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 50px;
+}
+
+#cell_PL{
+    background-image: url(../img/plato.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
+
+#cell_Fy{
+    background-image: url(../img/mosca.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+}
