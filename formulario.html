@@ -16,30 +16,50 @@
             <div class="form_section">
                 <fieldset>
                     <legend>DATOS PERSONALES</legend>
-                    <br>Nombre: <input type="text" name="Nombre" required placeholder="Nombre">
-                    <br>Apellidos: <input type="text" name="Apellidos" required placeholder="Apellidos">
-                    <br>DNI: <input type="text" name="DNI" placeholder="12345678A">
-                    <br>Correo Electrónico: <input type="email" placeholder="ejemplo@gmail.com">
-                    <br>Fecha de nacimiento: <input type="date">
+
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="Nombre" name="Nombre" required placeholder="Nombre">
+
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" id="Apellidos" name="Apellidos" required placeholder="Apellidos">
+
+                    <label for="DNI">DNI</label>
+                    <input type="text" id="DNI" name="DNI" placeholder="12345678A">
+
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com">
+
+                    <label for="FechaNacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="FechaNacimiento" name="FechaNacimiento">
                 </fieldset>
             </div>
 
             <div class="form_section">
                 <fieldset>
                     <legend>DIRECCIÓN POSTAL</legend>
-                    Calle: <input type="text" name="Calle" placeholder="Calle/Avenida/Paseo/...">
-                    <br>Número: <input type="number" name="Número" placeholder="Número">
-                    <br>Piso: <input type="text" name="Piso" placeholder="Piso">
-                    <br>Código Postal: <input type="number" name="Código Postal" placeholder="CP">
-                    <br>Ciudad: <input type="text" name="Ciudad" placeholder="Ciudad">
+
+                    <label for="Calle">Calle:</label>
+                    <input type="text" id="Calle" name="Calle" placeholder="Calle/Avenida/Paseo/...">
+
+                    <label for="Número">Número:</label>
+                    <input type="number" id="Número" name="Número" placeholder="Número">
+
+                    <label for="Piso">Piso:</label>
+                    <input type="text" id="Piso" name="Piso" placeholder="Piso">
+
+                    <label for="CodPostal">Código Postal:</label>
+                    <input type="number" id="CodPostal" name="CodPostal" placeholder="CP">
+
+                    <label for="Ciudad">Ciudad:</label>
+                    <input type="text" id="Ciudad" name="Ciudad" placeholder="Ciudad">
                 </fieldset>
             </div>
 
             <div class="form_section">
                 <fieldset>
                     <legend>SEXO</legend>
-                    <br><input type="radio" name="Sexo" value="Hombre">Hombre
-                    <br><input type="radio" name="Sexo" value="Mujer">Mujer
+                    <br><input type="radio" id="Sexo" name="Sexo" value="Hombre">Hombre
+                    <br><input type="radio" id="Sexo" name="Sexo" value="Mujer">Mujer
                 </fieldset>
             </div>
 
@@ -65,7 +85,7 @@
                 </fieldset>
             </div>
             <div class="form_section">
-                <p><input type="file" name="Archivos"></p>
+                <p><input type="file" id="Archivos" name="Archivos"></p>
                 <br><input type="submit" value="Enviar"> <input type="reset" value="Borrar">
             </div>
         </form>
