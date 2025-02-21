@@ -109,6 +109,12 @@
     margin-left: -3rem;
 }
 
+fieldset{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
 /* CSS TABLA */
 .CabeceraTabla{
     background-image: url(../img/cabecera.png);
